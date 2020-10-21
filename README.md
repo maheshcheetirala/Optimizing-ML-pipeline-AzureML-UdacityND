@@ -13,6 +13,8 @@ using Azure ML python SDK Hyper Drive Parameters. Also in Logistic  regression  
 Maximum iterations is another hyper parameter choosen , maximum iterations is the number of times your model should be trained with the  given hyper parameters.<br>
 # Sampling Method Used<br>
 I have choosen the Random Sampling method  becuase of its advantage of performing equally as Grid Search with lesser compute power requirements.<br>
+# Early Stopping Technique used <br>
+I have choosen to use Bandit policy stopping because of its advanatges using the Slack Factor and Slack amount to decide  on  creating the next runs. <br>
 # Comparisons between AutoML and Hyper Drive<br>
 After 20 iterations  both AUtoML and Hyper Drive gave me an accuracy of approximately 90%.<br>
 # Future Scope<br>
