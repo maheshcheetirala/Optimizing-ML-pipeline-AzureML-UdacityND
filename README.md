@@ -19,3 +19,7 @@ I have choosen to use Bandit policy stopping because of its advanatges using the
 After 20 iterations  both AUtoML and Hyper Drive gave me an accuracy of approximately 90%.<br>
 # Future Scope<br>
 This Dataset is hugely Imbalanced , performing more future Engineering technqiues may slightly improve the accuracy.<br>
+# Resources that Helped me during this Project
+[Hyper Parameter Tuning Using Azure ML](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters)<br>
+[DataSets and Data Stores Azure ML](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-register-datasets)<br>
+[Tabular Datasets using Azure Python SDK](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py)<br>
