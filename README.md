@@ -23,3 +23,4 @@ This Dataset is hugely Imbalanced , performing more future Engineering technqiue
 [Hyper Parameter Tuning Using Azure ML](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters)<br>
 [DataSets and Data Stores Azure ML](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-register-datasets)<br>
 [Tabular Datasets using Azure Python SDK](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py)<br>
+[GithUb Repo From Azure ML Python SDK examples](https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/create-first-ml-experiment/tutorial-1st-experiment-sdk-train.ipynb)
