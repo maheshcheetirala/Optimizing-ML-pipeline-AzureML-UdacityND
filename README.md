@@ -1,0 +1,19 @@
+# Optimizing-ML-pipeline-AzureML-UdacityND
+# Objective <br>
+This Project aims at making a binary prediction on a Dataset as part of Udacity Azure ML Engineer Nano Degree.We are given with two files namely
+- Train.py<br>
+- Project.ipynb<br>
+We need to build a Machine learning model using skikit learn and tune the hyper parameters to find the best model using azure ML python SDK and Hyper Drive<br>
+Also we need to  use the Azure auto ML Feature  to find the best model and best Hyperparameters.<br>
+# Train Test Split<br>
+I have choosen to use 70% and 30 % datasets for Train and test splits.<br>
+# Hyperparameters used
+Learning rate with different values . As per literature survey learning rate should not be too long or too small for better model performances. Hence I choose a list of learning rates
+using Azure ML python SDK Hyper Drive Parameters. Also in Logistic  regression  C is called inverse regularisation parameter so lesser  C values penalises the model more for better results.<br>
+Maximum iterations is another hyper parameter choosen , maximum iterations is the number of times your model should be trained with the  given hyper parameters.<br>
+# Sampling Method Used<br>
+I have choosen the Random Sampling method  becuase of its advantage of performing equally as Grid Search with lesser compute power requirements.<br>
+# Comparisons between AutoML and Hyper Drive<br>
+After 20 iterations  both AUtoML and Hyper Drive gave me an accuracy of approximately 90%.<br>
+# Future Scope<br>
+This Dataset is hugely Imbalanced , performing more future Engineering technqiues may slightly improve the accuracy.<br>
