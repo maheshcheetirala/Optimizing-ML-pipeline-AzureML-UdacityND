@@ -18,7 +18,7 @@ I have choosen to use Bandit policy stopping because of its advanatges using the
 # AutoML Configuration<br>
 Since this is a two class Binary classification I have choosen the task as Classification in Auto M config along with following configurations  number of iterations =20 , maximum number of Concurrent iterations =4, K fold Cross Validations =5. After Running the model with therse configurations Best model choosen was Voting Ensemble with an accuracy of 91%.
 # Comparisons between AutoML and Hyper Drive<br>
-Though both Hyper Drive and Auto Ml performed almost same with an accuracy of 91% approximately , I feel Hyper drive is bes t to choose in terms of feature engineering as we have limited scope of feature engineering in terms of Auto Ml .<br>
+Though both Hyper Drive and Auto Ml performed almost same with an accuracy of 91% approximately , I feel Hyper drive is best to choose in terms of feature engineering as we have limited scope of feature engineering in terms of Auto Ml .<br>
 # Future Scope<br>
 This Dataset is hugely Imbalanced , performing more future Engineering technqiues may slightly improve the accuracy.<br>
 # Resources that Helped me during this Project
