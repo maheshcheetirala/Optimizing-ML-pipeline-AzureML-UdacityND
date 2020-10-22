@@ -15,6 +15,8 @@ Maximum iterations is another hyper parameter choosen , maximum iterations is th
 I have choosen the Random Sampling method  becuase of its advantage of performing equally as Grid Search with lesser compute power requirements.<br>
 # Early Stopping Technique used <br>
 I have choosen to use Bandit policy stopping because of its advanatges using the Slack Factor and Slack amount to decide  on  creating the next runs. <br>
+# AutoML Configuration
+Since this is a two class Binary classification I have choosen the task as Classification in Auto M config along with following configurations  number of iterations =20 , maximum number of Concurrent iterations =5, K fold Cross Validations =5. After Running the model with therse configurations Best model choosen was Voting Ensemble with an accuracy of 91%.
 # Comparisons between AutoML and Hyper Drive<br>
 After 20 iterations  both AUtoML and Hyper Drive gave me an accuracy of approximately 90%.<br>
 # Future Scope<br>
